@@ -1,7 +1,12 @@
+import Counter from "./features/counter/Counter";
 import "./App.css";
 
 const App = () => {
-	return <div>Hello, World!</div>;
+	return (
+		<main className="App">
+			<Counter />
+		</main>
+	);
 };
 
 export default App;
