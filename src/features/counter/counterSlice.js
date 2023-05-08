@@ -1,5 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// What is a SLICE? Redux logic is typically organized into files called "slices"
+// A "slice" contains the reducer logic and actions related to a specific feature / section of the Redux state
+// Redux Toolkit's createSlice API generates action creators and action types for each individual reducer function you provide
+// So, We don't have to worry about action creators, actions and so on.
+
 const initialState = {
 	count: 0,
 };
